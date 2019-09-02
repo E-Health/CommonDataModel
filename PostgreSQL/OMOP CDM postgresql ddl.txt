@@ -599,7 +599,7 @@ CREATE TABLE location
 
 
 --HINT DISTRIBUTE ON RANDOM
-CREATE TABLE location_history --Table added
+CREATE TABLE location_history
 (
   location_history_id           BIGINT      NOT NULL ,
   location_id			        BIGINT		NOT NULL ,
